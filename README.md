@@ -11,7 +11,7 @@ Laravel REST API boilerplate for typical project
 ## Table of Contents <!-- omit in toc -->
 
 - [Features](#features)
-- [Quick run](#quick-run)
+- [Run Application](#Run Application)
 
 
 ## Features
