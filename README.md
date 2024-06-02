@@ -2,34 +2,33 @@
 
 # LARAVEL REST API BOILERPLATE
 
-
 ## Description <!-- omit in toc -->
 
-Laravel REST API boilerplate for typical project
-
+Laravel REST API boilerplate for typical project. It consists of authentication and authorization using Laravel passport and also API documentation using OpenAPI(Swagger), RBAC using Laravel spatie permission.
 
 ## Table of Contents <!-- omit in toc -->
 
-- [Features](#features)
-- [Run Application](#Run-application)
-
+-   [Features](#features)
+-   [Run Application](#Run-application)
 
 ## Features
 
-- [x] Database
-- [x] Seeding
-- [] Mailing 
-- [] Sign in and sign up via email
-- [] Admin and User roles
-- [] File uploads. Support local and Amazon S3 drivers
-- [] Swagger
-- [] E2E and units tests
-- [] Docker
-- [] CI (Github Actions)
+-   [x] Database
+-   [x] Seeding
+-   [] Mailing
+-   [] Sign in and sign up via email
+-   [] Admin and User roles
+-   [] File uploads. Support local and Amazon S3 drivers
+-   [] Swagger
+-   [] E2E and units tests
+-   [] Docker
+-   [] CI (Github Actions)
 
 ## Run Application
+
 ```bash
 git clone https://github.com/andripurnama/laravel-boilerplate.git my-app
 cd my-app/
 cp env-example .env
 sudo php artisan key:generate
+```
